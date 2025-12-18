@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY_HERE";
+const apiKey = process.env.NEXT_PUBLIC_API_KEY;
 
 let searchbutton=document.querySelector(".searchbutton");
 let searchbar=document.querySelector(".searchbar");
